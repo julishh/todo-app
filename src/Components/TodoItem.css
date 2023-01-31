@@ -1,0 +1,32 @@
+.completed{
+  
+  opacity: 0.5;
+}
+.buttons{
+  min-width: 175;;
+}
+.button{
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  border:1px solid black;
+  border: auto;
+  width: 77px;
+}
+
+.delete{
+
+ color:red;
+ border:1px solid red;
+}
+
+
+
+.button:hover{
+  cursor: pointer;
+  opacity: 0.6;
+  
+}
+
+
+

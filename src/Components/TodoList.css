@@ -1,0 +1,14 @@
+.todo-list{
+   
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    
+    padding: 20px;
+}
+
+@media(min-width:1300px){
+    .todo-list{
+        width:50%
+    }
+}

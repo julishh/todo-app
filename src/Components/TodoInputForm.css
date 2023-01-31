@@ -1,0 +1,31 @@
+.input-form{
+    background-color: rgb(199, 165, 165);
+    
+    padding: 20px ;
+    text-align: center;
+}
+
+.input{
+width: 100%;
+height: 35px;
+
+}
+
+.task-button{
+    margin-top: 5px;
+    margin-left: 20px;
+    height: 35px;
+   width: 50px;
+}
+
+@media(min-width:400px){
+    .input-form{
+        text-align: start;
+        padding-right: 0;
+    }
+    .input{
+        width: 40%;
+        min-width: 270px;
+    }
+}
+
