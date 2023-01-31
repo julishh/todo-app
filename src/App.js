@@ -23,7 +23,7 @@ function App() {
   const [todo, setTodo] = useState();
 
   const addTask = (text) => {
-    console.log(text);
+    
     let newTodos = [
       { id: new Date().valueOf(), task: text, complete: false },
       ...todos,
